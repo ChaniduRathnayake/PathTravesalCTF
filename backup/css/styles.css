@@ -1,0 +1,143 @@
+/* Reset all padding and margin for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    background-color: rgba(0, 162, 255, 0.5);
+    background-image: url('./../images/background.jpg'); /* Replace with the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Make text white for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures footer stays at the bottom */
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: stic;
+
+}
+
+/* Navigation styling */
+nav {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Add some margin */
+    text-align: center; /* Center the list */
+}
+
+ul li {
+    margin: 10px 0; /* Add space between list items vertically */
+}
+
+ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    background-color: #555; /* Green button background */
+    padding: 10px 20px; /* Add padding to the buttons */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    display: block; /* Make the links block elements */
+    width: 250px; /* Set a fixed width for the buttons */
+    margin: 0 auto; /* Center the buttons */
+}
+
+ul li a:hover {
+    background-color: #666; /* Darken the button on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Centering content on home page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Make stages display in center of the page */
+.levels {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.level {
+    background-color: #777;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.level:hover {
+    background-color: #555;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Button design */
+button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Spacing for the stage pages */
+.stage-content {
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.details {
+    margin-top: 30px;
+    margin-left: 20px;
+}

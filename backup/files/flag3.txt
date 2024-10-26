@@ -1,0 +1,1 @@
+FLAG{encoding_tricks_learned}

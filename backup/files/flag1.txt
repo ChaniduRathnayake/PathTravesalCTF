@@ -1,0 +1,1 @@
+FLAG{basic_path_traversal_success}

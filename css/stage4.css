@@ -1,0 +1,9 @@
+@import url('styles.css');
+
+/* Stage-specific styles for Stage 4 */
+.stage-content {
+    background-color: #e0f7fa;
+    border: 2px solid #00acc1;
+    padding: 40px;
+    border-radius: 10px;
+}
